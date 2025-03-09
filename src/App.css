@@ -1,3 +1,8 @@
+:root {
+  --main-font: "Italiana", serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
 .App {
-  font-family: "Italiana", serif;
+  font-family: var(--main-font);
 }

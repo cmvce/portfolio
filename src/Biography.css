@@ -1,0 +1,14 @@
+.Biography {
+  font-family: var(--secondary-font);
+  margin-top: 20px;
+}
+
+.Biography h3 {
+  letter-spacing: 5px;
+  font-family: var(--main-font);
+  font-size: 36px;
+}
+
+.Biography p {
+  font-size: 16px;
+}

@@ -1,7 +1,7 @@
 .Portfolio {
   text-align: center;
-
   margin: 0 auto;
+  font-family: var(--secondary-font);
 }
 
 .Portfolio .hero {
@@ -11,14 +11,23 @@
   margin: 0 auto;
 }
 
+.Portfolio h2 {
+  font-size: 20px;
+}
+
 .Portfolio section {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .Portfolio em {
-  font-family: "Italiana", serif;
+  font-family: var(--main-font);
+  font-size: 48px;
 }
 
 .Portfolio .img-fluid {
   max-width: 400px;
   border-radius: 50%;
+}
+
+.Portfolio p {
+  font-size: 20px;
 }
