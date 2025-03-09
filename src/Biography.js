@@ -3,10 +3,21 @@ import "./Biography.css";
 export default function Biography(props) {
   return (
     <div className='Biography'>
-      <h3>BIOGRAPHY</h3>
+      <h3>About me</h3>
       <p>
-        I am currently working as a Sous-Chef and with my spare time I have
-        studied and accomplished a coding bootcamp from SheCodes.
+        My name is Coleene and I'm 30 y.o. <br />A year ago I wanted to change
+        my career from being a Sous-Chef to a developer. Thanks to the{" "}
+        <a
+          className='shecodes-link'
+          href='https://www.shecodes.io/bootcamp'
+          target='blank_'
+        >
+          SheCodes bootcamp
+        </a>
+        , I can finally make it possible. <br />
+        Thanks to the time spent in the kitchen, I am able to{" "}
+        <strong>work in a team</strong>, be <strong>independent</strong> and{" "}
+        <strong>can work in a stressful environement</strong>.
       </p>
     </div>
   );

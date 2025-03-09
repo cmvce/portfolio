@@ -12,3 +12,7 @@
 .Biography p {
   font-size: 16px;
 }
+
+.Biography .shecodes-link {
+  color: yellowgreen;
+}
