@@ -1,3 +1,24 @@
-.Portfolio .container {
+.Portfolio {
   text-align: center;
+
+  margin: 0 auto;
+}
+
+.Portfolio .hero {
+  text-align: center;
+  background-color: rgba(171, 165, 157, 0.545);
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.Portfolio section {
+  margin-top: 200px;
+}
+.Portfolio em {
+  font-family: "Italiana", serif;
+}
+
+.Portfolio .img-fluid {
+  max-width: 400px;
+  border-radius: 50%;
 }
